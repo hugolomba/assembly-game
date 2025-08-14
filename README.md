@@ -32,6 +32,6 @@ Each wrong guess removes a "life," represented by a technology, and the game fea
 ---
 
 ## 🔗 Live Demo
-[Play Assembly Game Online](assemblygame.hugo-miranda.dev)  
+[Play Assembly Game Online](https://assemblygame.hugo-miranda.dev/)
 
 ---
