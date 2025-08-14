@@ -1,69 +1,36 @@
-# React + TypeScript + Vite
+# Assembly Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive **word guessing game** built with **React + TypeScript**.  
+Each wrong guess removes a "life," represented by a technology, and the game features animations for both winning and losing, enhancing the player experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Technologies
+- **React** – Component-based UI and state management  
+- **TypeScript** – Fully typed components and functions  
+- **CSS / Animations** – Visual feedback for wins and lost lives 
+- Fully typed components for safer and scalable code  
+- Dynamic animations and interactive UI  
+- Game logic and state management  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+##  How to Play
+1. Guess the word letter by letter.  
+2. Each wrong guess removes a "life" (a technology).  
+3. Win by guessing the word before losing all lives.  
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+##  Screenshots
+![Game Screenshot 1](./assets/screenshot1.jpeg)  
+![Game Screenshot 2](./assets/screenshot2.jpeg)  
+![Game Screenshot 3](./assets/screenshot3.jpeg)  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🔗 Live Demo
+[Play Assembly Game Online](assemblygame.hugo-miranda.dev)  
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
