@@ -23,11 +23,12 @@ Each wrong guess removes a "life," represented by a technology, and the game fea
 ---
 
 ##  Screenshots
-![Game Screenshot 1](./assets/screenshot1.jpeg)  
-![Game Screenshot 2](./assets/screenshot2.jpeg)  
-![Game Screenshot 3](./assets/screenshot3.jpeg)  
+![Game Screenshot 1](/src/assets/screenshot1.jpeg)  
+![Game Screenshot 2](/src/assets/screenshot2.jpeg) 
+![Game Screenshot 3](/src/assets/screenshot3.jpeg) 
 
-
+##  Additional Images
+![Game Animation Preview](./assets/animation-preview.gif)
 ---
 
 ## 🔗 Live Demo
